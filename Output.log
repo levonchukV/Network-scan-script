@@ -1,0 +1,19 @@
+--- Nmap Scan ---
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-16 17:44 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000010s latency).
+All 100 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+--- Tcpdump Capture ---
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:44:41.060488 IP6 fe80::fd90:c720:43ac:23eb.5353 > ff02::fb.5353: 0 SRV (QM)? Q990C-7ea30f7048bead42695a923319c0086b._googlecast._tcp.local. (79)
+17:44:41.060507 IP 192.168.144.1.5353 > 224.0.0.251.5353: 0 SRV (QM)? Q990C-7ea30f7048bead42695a923319c0086b._googlecast._tcp.local. (79)
+17:44:44.908667 IP 192.168.144.1.57621 > 192.168.159.255.57621: UDP, length 44
+
+3 packets captured
+3 packets received by filter
+0 packets dropped by kernel
